@@ -1,4 +1,4 @@
-export const APP_NAME = 'NextTemplate';
+export const APP_NAME = 'Ebrahim Ramadan — Frontend Engineer';
 
 export const COOKIE_KEYS = {
   access: 'access_token',
@@ -18,4 +18,15 @@ export const API_ROUTES = {
   refresh: '/api/auth/refresh',
   logout: '/api/auth/logout',
   me: '/api/auth/me',
+  contact: '/api/contact',
+} as const;
+
+export const SECTION_IDS = {
+  hero: 'hero',
+  about: 'about',
+  skills: 'skills',
+  experience: 'experience',
+  projects: 'projects',
+  philosophy: 'philosophy',
+  contact: 'contact',
 } as const;

@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import ThemeRegistry from '@/app/theme-registry';
 import Providers from '@/app/providers';
 import PageTransition from '@/components/shared/PageTransition';
+import { portfolioMetadata } from '@/lib/content';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -13,23 +14,33 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'NextTemplate',
-    template: '%s | NextTemplate',
+    default: portfolioMetadata.title,
+    template: '%s | Ebrahim Ramadan',
   },
-  description: 'Production-grade Next.js template with Material UI, TypeScript, and modern tooling.',
+  description: portfolioMetadata.description,
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
+    process.env.NEXT_PUBLIC_APP_URL || portfolioMetadata.url,
   ),
   robots: {
     index: true,
     follow: true,
+  },
+  openGraph: {
+    title: portfolioMetadata.title,
+    description: portfolioMetadata.description,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: portfolioMetadata.title,
+    description: portfolioMetadata.description,
   },
 };
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#1976d2',
+  themeColor: '#6366f1',
 };
 
 export default function RootLayout({

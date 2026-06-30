@@ -12,31 +12,32 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@emotion/cache": "^11.13.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@hookform/resolvers": "^5.4.0",
+    "@mui/material": "9.1.2",
+    "@mui/material-nextjs": "9.1.1",
+    "@tanstack/react-query": "5.101.1",
+    "@tanstack/react-query-devtools": "5.101.1",
+    "axios": "1.18.1",
+    "motion": "12.42.0",
     "next": "16.2.9",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "@mui/material": "9.1.2",
-    "@mui/material-nextjs": "9.1.1",
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
-    "@emotion/cache": "^11.13.0",
-    "zustand": "5.0.14",
-    "@tanstack/react-query": "5.101.1",
-    "@tanstack/react-query-devtools": "5.101.1",
-    "react-hook-form": "7.80.0",
-    "@hookform/resolvers": "^5.0.0",
-    "zod": "4.4.3",
-    "motion": "12.42.0",
-    "axios": "1.18.1"
+    "react-hook-form": "^7.80.0",
+    "resend": "^6.16.0",
+    "zod": "^4.4.3",
+    "zustand": "5.0.14"
   },
   "devDependencies": {
-    "typescript": "^5.9.0",
-    "eslint": "^9.0.0",
-    "prettier": "^3.3.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "typescript-eslint": "^8.0.0",
-    "eslint-plugin-import": "^2.31.0"
+    "eslint": "^9.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.0.0"
   }
 }
