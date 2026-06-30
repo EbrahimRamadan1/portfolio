@@ -7,7 +7,7 @@ export const portfolio: PortfolioContent = {
     'Building scalable financial systems with precision, performance, and product-first engineering.',
   location: 'Giza, Egypt',
   experienceYears: '1+',
-  currentCompany: 'eVision Empowering Financial',
+  currentCompany: 'eVision - Digital Financial Systems',
   about: [
     'Frontend engineer specializing in enterprise financial and banking systems. I architect and build applications that handle critical financial operations — reconciliation, payments, SWIFT messaging, and user management — using React, TypeScript, and scalable frontend architectures.',
     'My work focuses on performance, maintainability, and reusable component systems. I design interfaces that reduce cognitive load for operators managing high-stakes financial data, and I build architecture that scales across products without accumulating tech debt.',
@@ -61,7 +61,7 @@ export const portfolio: PortfolioContent = {
   ],
   experience: [
     {
-      company: 'eVision Empowering Financial',
+      company: 'eVision - Digital Financial Systems',
       role: 'Frontend Engineer',
       startDate: 'April 2025',
       endDate: 'Present',
